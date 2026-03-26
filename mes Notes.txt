@@ -1,0 +1,9 @@
+wsl -l -v 
+wsl -d Ubuntu
+
+docker desktop -> integration avec wsl dans les paramèttres 
+
+cp /mnt/d/devop.zip ~
+
+docker build -t devops-app .
+docker run --rm -p 3000:3000 devops-app
