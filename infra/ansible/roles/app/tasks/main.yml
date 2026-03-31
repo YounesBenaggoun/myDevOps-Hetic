@@ -1,0 +1,7 @@
+---
+- name: Installer Node.js
+  apt:
+    name:
+      - nodejs
+      - npm
+    state: present
